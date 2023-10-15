@@ -1,5 +1,6 @@
 # galxe-ceklist
 
+````
 const elementsToClick = document.querySelectorAll('.d-flex.height-100.width-100.click-area');
 
 const clickElement = (element) => {
@@ -12,3 +13,4 @@ const clickElement = (element) => {
 };
 
 elementsToClick.forEach(clickElement);
+````
